@@ -1,0 +1,30 @@
+{
+    "fp32": {
+        "precision": "fp32",
+        "total_frames": 388,
+        "extract_time_s": 2.903437614440918,
+        "inference_time_s": 405.2077314853668,
+        "merge_time_s": 4.121716260910034,
+        "total_time_s": 438.63503432273865,
+        "fps_video": 0.8845622662108599,
+        "fps_inference": 0.9575335558818472,
+        "quality": {
+            "psnr": 37.42263795349007,
+            "ssim": 0.9617078762292265
+        }
+    },
+    "fp16": {
+        "precision": "fp16",
+        "total_frames": 388,
+        "extract_time_s": 2.661975860595703,
+        "inference_time_s": 225.283527135849,
+        "merge_time_s": 4.038374900817871,
+        "total_time_s": 258.06530690193176,
+        "fps_video": 1.5034953929217814,
+        "fps_inference": 1.7222741712758731,
+        "quality": {
+            "psnr": 37.37581668318311,
+            "ssim": 0.9615478855300951
+        }
+    }
+}
